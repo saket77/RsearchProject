@@ -1,0 +1,26 @@
+Description,Team
+API returns 500 error,Backend Team
+Database connection timeout,Backend Team
+Upload API fails intermittently,Backend Team
+Backend service not reachable,Backend Team
+Error connecting to the database,Backend Team
+Login button not working on homepage,Frontend Team
+Dropdown not responding on click,Frontend Team
+Sidebar menu not visible on mobile,Frontend Team
+Form fields not accepting input,Frontend Team
+JavaScript error on form submit,Frontend Team
+CSS broken on login page,UX Team
+Spacing between sections is inconsistent,UX Team
+Text not readable due to color contrast,UX Team
+Icons not aligned properly,UX Team
+Buttons not styled correctly,UX Team
+Session expires too quickly,Platform Team
+Cache not clearing on logout,Platform Team
+Server not restarting after deployment,Platform Team
+Disk space alert not triggering,Platform Team
+Configuration backup failed,Platform Team
+Unexpected server error,IT Team
+Bug report has no steps to reproduce,IT Team
+Unrecognized error on submission,IT Team
+Unknown system failure,IT Team
+General bug needs investigation,IT Team

@@ -1,0 +1,6 @@
+Test Case ID,Pass/Fail,Comment
+TC01,True,10 entries labeled with teams
+TC02,True,Missing required column: 'Description'
+TC03,True,Predicted team: Backend Team
+TC04,True,Prediction: Frontend Team
+TC05,True,"Output columns: ['Description', 'AssignedTeam']"

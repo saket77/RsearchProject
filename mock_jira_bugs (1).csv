@@ -1,0 +1,26 @@
+IssueID,CreatedBy,CreateDate,Reporter,Priority,Description,Status
+BUG-1000,user1,2023-09-10,qa1,Low,Login button not responding on click,Open
+BUG-1001,user2,2023-09-11,qa2,Medium,API returns 500 error on payment processing,Open
+BUG-1002,user3,2023-09-12,qa3,High,Search bar is misaligned on homepage,Open
+BUG-1003,user1,2023-09-13,qa1,Low,Submit form takes too long to respond,Open
+BUG-1004,user2,2023-09-14,qa2,Medium,Profile image upload not working,Open
+BUG-1005,user3,2023-09-15,qa3,High,Broken link on the About Us page,Open
+BUG-1006,user1,2023-09-16,qa1,Low,Font size too small in FAQ section,Open
+BUG-1007,user2,2023-09-17,qa2,Medium,Dropdown menu overlaps footer,Open
+BUG-1008,user3,2023-09-18,qa3,High,Header logo is not visible on mobile,Open
+BUG-1009,user1,2023-09-19,qa1,Low,Password reset email not sent,Open
+BUG-1010,user2,2023-09-20,qa2,Medium,Checkout page crashes on submit,Open
+BUG-1011,user3,2023-09-21,qa3,High,API timeout on product listing,Open
+BUG-1012,user1,2023-09-22,qa1,Low,CSS styles missing for login page,Open
+BUG-1013,user2,2023-09-23,qa2,Medium,No confirmation after subscription,Open
+BUG-1014,user3,2023-09-24,qa3,High,Terms and Conditions page blank,Open
+BUG-1015,user1,2023-09-25,qa1,Low,Incorrect error message for invalid input,Open
+BUG-1016,user2,2023-09-26,qa2,Medium,Spacing issue between buttons on dashboard,Open
+BUG-1017,user3,2023-09-27,qa3,High,Cache not cleared after logout,Open
+BUG-1018,user1,2023-09-28,qa1,Low,Color contrast fails accessibility test,Open
+BUG-1019,user2,2023-09-29,qa2,Medium,Mobile view doesn't show sidebar,Open
+BUG-1020,user3,2023-09-10,qa3,High,JavaScript error on contact form,Open
+BUG-1021,user1,2023-09-11,qa1,Low,Database connection lost during backup,Open
+BUG-1022,user2,2023-09-12,qa2,Medium,User session expires prematurely,Open
+BUG-1023,user3,2023-09-13,qa3,High,Label alignment broken in registration form,Open
+BUG-1024,user1,2023-09-14,qa1,Low,Upload API not handling large files properly,Open

@@ -1,0 +1,6 @@
+Test Case ID,Pass/Fail,Comment
+TC01,True,25 rows processed correctly
+TC02,True,Missing required column: 'Description'
+TC03,True,Backend Team
+TC04,True,UX Team
+TC05,True,IT Team

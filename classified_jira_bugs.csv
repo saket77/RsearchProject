@@ -1,0 +1,26 @@
+IssueID,CreatedBy,CreateDate,Reporter,Priority,Description,Status,AssignedTeam
+BUG-1000,user2,2023-09-14,qa3,High,Login button not responding on click,Open,Frontend Team
+BUG-1001,user1,2023-09-25,qa1,Medium,API returns 500 error on payment processing,Open,Backend Team
+BUG-1002,user1,2023-09-20,qa3,Medium,Search bar is misaligned on homepage,Open,IT Team
+BUG-1003,user1,2023-09-20,qa3,High,Submit form takes too long to respond,Open,Frontend Team
+BUG-1004,user3,2023-09-17,qa1,Medium,Profile image upload not working,Open,IT Team
+BUG-1005,user3,2023-09-11,qa3,High,Broken link on the About Us page,Open,IT Team
+BUG-1006,user3,2023-09-13,qa3,Low,Font size too small in FAQ section,Open,IT Team
+BUG-1007,user1,2023-09-17,qa1,High,Dropdown menu overlaps footer,Open,Frontend Team
+BUG-1008,user1,2023-09-15,qa3,Medium,Header logo is not visible on mobile,Open,Frontend Team
+BUG-1009,user2,2023-09-26,qa3,Low,Password reset email not sent,Open,IT Team
+BUG-1010,user3,2023-09-11,qa3,Low,Checkout page crashes on submit,Open,IT Team
+BUG-1011,user3,2023-09-17,qa3,Medium,API timeout on product listing,Open,Backend Team
+BUG-1012,user1,2023-09-12,qa2,Low,CSS styles missing for login page,Open,UX Team
+BUG-1013,user2,2023-09-10,qa2,Low,No confirmation after subscription,Open,IT Team
+BUG-1014,user3,2023-09-25,qa3,High,Terms and Conditions page blank,Open,IT Team
+BUG-1015,user3,2023-09-13,qa3,Low,Incorrect error message for invalid input,Open,IT Team
+BUG-1016,user2,2023-09-20,qa1,Medium,Spacing issue between buttons on dashboard,Open,UX Team
+BUG-1017,user1,2023-09-23,qa3,Low,Cache not cleared after logout,Open,Platform Team
+BUG-1018,user1,2023-09-16,qa1,Low,Color contrast fails accessibility test,Open,UX Team
+BUG-1019,user1,2023-09-14,qa2,Low,Mobile view doesn't show sidebar,Open,Frontend Team
+BUG-1020,user1,2023-09-14,qa3,Low,JavaScript error on contact form,Open,Frontend Team
+BUG-1021,user2,2023-09-24,qa3,High,Database connection lost during backup,Open,Backend Team
+BUG-1022,user2,2023-09-28,qa1,Medium,User session expires prematurely,Open,Platform Team
+BUG-1023,user3,2023-09-15,qa1,Low,Label alignment broken in registration form,Open,UX Team
+BUG-1024,user3,2023-09-13,qa3,Low,Upload API not handling large files properly,Open,Backend Team

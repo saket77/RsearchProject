@@ -1,0 +1,6 @@
+Test Case ID,Scenario,Input,Expected Output
+TC01,Valid CSV Input,25 well-formed bug rows,25 rows with 'AssignedTeam' column
+TC02,Missing Fields in CSV,CSV without 'Description' column,Error indicating missing required field
+TC03,Contains keyword 'API','API fails to load data','Backend Team'
+TC04,Contains word 'CSS','CSS broken on signup page','UX Team'
+TC05,Ambiguous input not matching rules,'Unexpected error on site','IT Team'
