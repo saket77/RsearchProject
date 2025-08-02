@@ -4,8 +4,8 @@ import pandas as pd
 import joblib
 
 # Load the trained NLP model and vectorizer
-vectorizer = joblib.load("/mnt/data/tfidf_vectorizer.pkl")
-model = joblib.load("/mnt/data/team_classifier.pkl")
+vectorizer = joblib.load("tfidf_vectorizer.pkl")
+model = joblib.load("team_classifier.pkl")
 
 # Business rule–based team classification
 def classify_with_rules(description: str) -> str:
@@ -33,16 +33,16 @@ def triage_bugs(input_csv_path: str, output_csv_path: str = "results.csv"):
     # Step 3: Apply business rules first
     df["AssignedTeam"] = df["Description"].apply(classify_with_rules)
 
-    # Step 4: Identify rows that still need prediction via NLP
-    mask_needs_nlp = df["AssignedTeam"] == ""
-    if mask_needs_nlp.any():
-        # Extract descriptions needing ML prediction
-        X_nlp = vectorizer.transform(df.loc[mask_needs_nlp, "Description"])
-        df.loc[mask_needs_nlp, "AssignedTeam"] = model.predict(X_nlp)
+    # # Step 4: Identify rows that still need prediction via NLP
+    # mask_needs_nlp = df["AssignedTeam"] == ""
+    # if mask_needs_nlp.any():
+    #     # Extract descriptions needing ML prediction
+    #     X_nlp = vectorizer.transform(df.loc[mask_needs_nlp, "Description"])
+    #     df.loc[mask_needs_nlp, "AssignedTeam"] = model.predict(X_nlp)
 
     # Step 5: Save final output
     df.to_csv(output_csv_path, index=False)
     print(f"✅ Triaging complete using rules + NLP. Output saved to: {output_csv_path}")
 
 # Example usage:
-# triage_bugs("mock_jira_bugs.csv", "results.csv")
+triage_bugs("mock_jira_bugs.csv", "results.csv")

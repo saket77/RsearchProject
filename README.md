@@ -19,11 +19,10 @@ Help Product Owners (POs) save time and reduce manual work by automatically rout
 | 📊 Vectorizer File       | `tfidf_vectorizer.pkl`         |
 | 🛠 Train Script          | `train_model.py`               |
 | 🚀 Driver Script (ML)    | `driver.py`                    |
-| 🚀 Driver Script (Hybrid)| `driver_with_rules_and_nlp.py` |
 | 🧪 Driver Test Script    | `drivertest.py`                |
 | ✅ Test Output           | `driver_test_results.csv`      |
 | 📥 Mock JIRA Input       | `mock_jira_bugs.csv`           |
-| 📤 Final Output Example  | `results.csv`                  |
+| 📤 Final Output Example  | `classified_jira_bugs.csv`                  |
 
 ---
 
@@ -99,3 +98,23 @@ pip install pandas scikit-learn joblib
 
 Developed by Saket Mundhada
 Applied Research Project   
+
+
+
+🧠 team_classifier.pkl – Model File
+This file contains the trained machine learning model.
+
+It's a Logistic Regression classifier trained on bug descriptions (from training_data.csv) and their corresponding team labels (e.g., "Backend Team", "Frontend Team").
+
+It predicts which team should handle a bug report based on the text in the Description field.
+
+Saved using joblib, so it can be reloaded in your driver script for fast, repeatable predictions.
+
+📊 tfidf_vectorizer.pkl – Vectorizer File
+This file stores the TF-IDF vectorizer, which transforms raw bug descriptions into a numerical format that the model can understand.
+
+TF-IDF (Term Frequency–Inverse Document Frequency) assigns importance to words in each description based on how frequently they occur across all bugs.
+
+This vectorizer was fit on the training data and must be reused during prediction to maintain consistency between training and inference.
+
+Also saved using joblib for easy reloading.

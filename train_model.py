@@ -6,7 +6,7 @@ from sklearn.linear_model import LogisticRegression
 import joblib
 
 # Step 1: Load the labeled training data
-df = pd.read_csv("/mnt/data/training_data.csv")
+df = pd.read_csv("training_data.csv")
 
 # Step 2: Prepare features and labels
 X = df["Description"]              # Bug descriptions
@@ -21,7 +21,7 @@ clf = LogisticRegression(max_iter=200)
 clf.fit(X_vectorized, y)
 
 # Step 5: Save the model and vectorizer for reuse
-joblib.dump(clf, "/mnt/data/team_classifier.pkl")
-joblib.dump(vectorizer, "/mnt/data/tfidf_vectorizer.pkl")
+joblib.dump(clf, "team_classifier.pkl")
+joblib.dump(vectorizer, "tfidf_vectorizer.pkl")
 
 print("✅ Model and vectorizer trained and saved successfully.")
